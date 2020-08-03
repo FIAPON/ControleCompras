@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:gravity="center_vertical"
+    android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txtTotalItem"
+        android:layout_width="wrap_content"
+        android:text="R$ 0,00"
+        android:layout_marginRight="10dp"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txtItemLabel"
+        android:layout_width="0dp"
+        android:text="Definição do item..."
+        android:layout_weight="1"
+        android:textSize="14sp"
+        android:layout_height="wrap_content"/>
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:hint="Qtd"
+        android:textSize="14sp"
+        android:id="@+id/edtQtd"
+        android:inputType="numberDecimal"
+        android:layout_width="50dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="wrap_content"/>
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:textSize="14sp"
+        android:inputType="numberDecimal"
+        android:hint="Valor"
+        android:id="@+id/edtValue"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>

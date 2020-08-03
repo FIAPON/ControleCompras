@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Minhas Compras</string>
+    <string name="show_status">Máximo %1$s. Total %2$s</string>
+</resources>
